@@ -1,6 +1,6 @@
 {
   "name": "im-decode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A node.js library that leverages ImageMagick to turn images into RGBA arrays (Uint8Arrays).",
   "main": "index.js",
   "scripts": {
