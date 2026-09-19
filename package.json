@@ -4,7 +4,7 @@
   "description": "A node.js library that leverages ImageMagick to turn images into RGBA arrays (Uint8Arrays).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/mmaelzer/im-decode/issues"
   },
-  "homepage": "https://github.com/mmaelzer/im-decode"
+  "homepage": "https://github.com/mmaelzer/im-decode",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "readme.md"
+  ]
 }
